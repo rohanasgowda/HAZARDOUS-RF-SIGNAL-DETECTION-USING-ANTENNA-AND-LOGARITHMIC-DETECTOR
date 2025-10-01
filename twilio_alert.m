@@ -1,9 +1,9 @@
 function sendTwilioSMS()
     % Twilio account details (replace with your real credentials)
-    accountSID = 'AC7c7d4322824c0acb94503ee995be1ca0';
-    authToken  = 'd5f61b74ea98eeb2d82f93878f3c6151';
-    fromNum    = '+16067220049';       % Your Twilio number
-    toNum      = '+917483081028';      % Destination number
+    accountSID = 'accountSID';
+    authToken  = 'authToken';
+    fromNum    = ' fromNum ';       % Your Twilio number
+    toNum      = ' toNum ';      % Destination number
 
     message    = 'Hazardous RF level detected';
 
