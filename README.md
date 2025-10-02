@@ -7,7 +7,7 @@ This project simulates a **Hazardous EMF Detector** to detect dangerous electrom
 - Trigger SMS alerts via Twilio when EM exposure is detected  
 - Demonstrate antenna design and EM detection blocks in MATLAB  
 
-It can serve as a **prototype for real-world EMF safety monitoring** and is suitable for academic or IEEE projects.
+It can serve as a **prototype for real-world EMF safety monitoring** and is suitable for academic projects 
 
 ---
 
