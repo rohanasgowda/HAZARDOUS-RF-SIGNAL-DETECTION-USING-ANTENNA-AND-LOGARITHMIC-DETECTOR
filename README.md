@@ -1,7 +1,7 @@
 # Hazardous Electromagnetic Field (EMF) Detector
 
 [![MATLAB](https://img.shields.io/badge/Language-MATLAB-blue.svg)](https://www.mathworks.com/products/matlab.html)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Status](https://img.shields.io/badge/Status-Completed-success)](#)
 
 ## 📌 Overview
@@ -9,7 +9,7 @@ This project simulates a **Hazardous EMF Detector** to detect dangerous electrom
 * Detect EM waves in hazardous ranges.
 * Trigger SMS alerts via Twilio when EM exposure is detected.
 * Demonstrate antenna design and EM detection blocks in MATLAB.
-* Serve as a prototype for real-world EMF safety monitoring and academic projects.
+* Serve as a prototype for real-world EMF safety monitoring.
 
 ![Antenna Geometry](./LPDA_geometry.png)
 
@@ -20,6 +20,7 @@ This project simulates a **Hazardous EMF Detector** to detect dangerous electrom
 | `antenna_design.m` | **Core Script:** MATLAB code for broadband antenna design and simulation. |
 | `em_blocks.slx` | **Simulink Model:** Functional blocks for EMF detection logic. |
 | `twilio_alert.m` | **Alert System:** Script for triggering SMS notifications via Twilio API. |
+| `LICENSE` | **Apache License 2.0:** Permissive license with explicit patent grants. |
 | `LPDA_geometry.png` | Visualization of the Log-Periodic Dipole Array antenna structure. |
 | `Radiation_Pattern.png` | 3D radiation pattern showing antenna gain and directivity. |
 | `s_parametre.png` | S11 (Return Loss) plot verifying the 0.5–3 GHz operating range. |
