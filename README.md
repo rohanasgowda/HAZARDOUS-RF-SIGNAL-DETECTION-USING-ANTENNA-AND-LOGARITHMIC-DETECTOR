@@ -25,6 +25,8 @@ This project simulates a **Hazardous EMF Detector** to detect dangerous electrom
 | `Radiation_Pattern.png` | 3D radiation pattern showing antenna gain and directivity. |
 | `s_parametre.png` | S11 (Return Loss) plot verifying the 0.5–3 GHz operating range. |
 | `Transfer_curve.png` | Analysis of detector response versus field intensity. |
+| `simulink_model.png` | Block diagram of the detection and alert simulation logic. |
+| `twilio.jpg` | Verification image of the SMS alert received on a mobile device. |
 
 ---
 
@@ -33,7 +35,8 @@ This project simulates a **Hazardous EMF Detector** to detect dangerous electrom
 * **Twilio API** for SMS notifications
 * **Simulated EM environment** for testing
 
-![Radiation Pattern](./Radiation_Pattern.png)
+![Simulink Implementation](./simulink_model.png)
+*Figure 1: Simulink block diagram showing the RF detector, comparator, and SMS alert logic.*
 
 ## ⚙️ Features
 * **Antenna Design:** MATLAB Antenna Toolbox used to design and simulate a broadband antenna targeting 0.5–3 GHz.
@@ -41,14 +44,31 @@ This project simulates a **Hazardous EMF Detector** to detect dangerous electrom
 * **Alert System:** SMS notification sent via Twilio when EMF exceeds safety thresholds.
 * **Simulation-Based Implementation:** System is fully simulated in MATLAB for demonstration purposes.
 
+![Twilio Alert Confirmation](./twilio.jpg)
+*Figure 2: Real-time SMS alert received via Twilio trial account upon hazardous RF detection.*
+
+---
+
+## 📊 Simulation & Analysis results
+
+### 3D Radiation Pattern
+![Radiation Pattern](./Radiation_Pattern.png)
+*Gain and directivity analysis across the 0.5–3 GHz spectrum.*
+
+### S-Parameters (Return Loss)
 ![S-Parameters](./s_parametre.png)
+*S11 plot verifying impedance matching and operating bandwidth.*
+
+### Detector Transfer Curve
+![Transfer Curve](./Transfer_curve.png)
+*Linearity analysis of the detector response versus input field strength.*
+
+---
 
 ## ✅ Applications
 * Hazardous EMF detection in labs or workplaces.
 * Educational demonstration of EM wave detection and safety.
 * Prototype for IoT-based EMF monitoring systems.
-
-![Transfer Curve](./Transfer_curve.png)
 
 ---
 **Developed by [rohanasgowda](https://github.com/rohanasgowda)**
