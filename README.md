@@ -1,34 +1,45 @@
 # Hazardous Electromagnetic Field (EMF) Detector
 
+[![MATLAB](https://img.shields.io/badge/Language-MATLAB-blue.svg)](https://www.mathworks.com/products/matlab.html)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/Status-Completed-success)](#)
+
 ## 📌 Overview
-This project simulates a **Hazardous EMF Detector** to detect dangerous electromagnetic fields in the **0.5 – 3 GHz** frequency range using MATLAB. The system is designed to:  
+This project simulates a **Hazardous EMF Detector** to detect dangerous electromagnetic fields in the **0.5 – 3 GHz** frequency range using MATLAB. The system is designed to:
+* Detect EM waves in hazardous ranges.
+* Trigger SMS alerts via Twilio when EM exposure is detected.
+* Demonstrate antenna design and EM detection blocks in MATLAB.
+* Serve as a prototype for real-world EMF safety monitoring.
 
-- Detect EM waves in hazardous ranges  
-- Trigger SMS alerts via Twilio when EM exposure is detected  
-- Demonstrate antenna design and EM detection blocks in MATLAB  
+## 📂 Repository Structure
 
-It can serve as a **prototype for real-world EMF safety monitoring** and is suitable for academic projects 
+| File | Description |
+| :--- | :--- |
+| `antenna_design.m` | **Design Script:** MATLAB code for the broadband antenna simulation. |
+| `em_blocks.slx` | **Simulink Model:** Functional blocks for detecting EM wave intensity. |
+| `twilio_alert.m` | **Alert System:** Script integrating Twilio API for SMS notifications. |
+| `LPDA_geometry.png` | Visualization of the Log-Periodic Dipole Array antenna geometry. |
+| `Radiation_Pattern.png` | 3D radiation pattern showing antenna gain and directivity. |
+| `s_parametre.png` | Return loss (S11) plot confirming the 0.5–3 GHz operating range. |
+| `Transfer_curve.png` | Analysis of detector response versus EM field strength. |
 
 ---
 
 ## 🧩 Tools & Libraries
-- MATLAB (with Antenna Toolbox)  
-- Twilio API for SMS notifications  
-- Simulated EM environment for testing  
-
----
+* **MATLAB** (with Antenna Toolbox)
+* **Twilio API** for SMS notifications
+* **Simulated EM environment** for testing
 
 ## ⚙️ Features
-1. **Antenna Design:** MATLAB Antenna Toolbox used to design and simulate a broadband antenna targeting 0.5–3 GHz.  
-2. **EM Detection:** Functional blocks detect hazardous EM waves within the target frequency range.  
-3. **Alert System:** SMS notification sent via Twilio when EMF exceeds safety thresholds.  
-4. **Simulation-Based Implementation:** System is fully simulated in MATLAB for demonstration purposes.  
-
----
+* **Antenna Design:** MATLAB Antenna Toolbox used to design and simulate a broadband antenna targeting 0.5–3 GHz.
+* **EM Detection:** Functional blocks detect hazardous EM waves within the target frequency range.
+* **Alert System:** SMS notification sent via Twilio when EMF exceeds safety thresholds.
+* **Simulation-Based Implementation:** System is fully simulated in MATLAB for demonstration purposes.
 
 ## ✅ Applications
-- Hazardous EMF detection in labs or workplaces  
-- Educational demonstration of EM wave detection and safety  
-- Prototype for IoT-based EMF monitoring systems   
+* Hazardous EMF detection in labs or workplaces.
+* Educational demonstration of EM wave detection and safety.
+* Prototype for IoT-based EMF monitoring systems.
 
 ---
+**Developed by [rohanasgowda](https://github.com/rohanasgowda)**
