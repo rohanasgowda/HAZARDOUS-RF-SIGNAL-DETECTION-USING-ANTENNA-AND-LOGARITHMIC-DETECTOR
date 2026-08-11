@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Status](https://img.shields.io/badge/Status-Completed-success)](#)
 
-## 📌 Overview
+## Overview
 This project simulates a **Hazardous EMF Detector** to detect dangerous electromagnetic fields in the **0.5 – 3 GHz** frequency range using MATLAB. The system is designed to:
 * Detect EM waves in hazardous ranges.
 * Trigger SMS alerts via Twilio when EM exposure is detected.
@@ -13,7 +13,7 @@ This project simulates a **Hazardous EMF Detector** to detect dangerous electrom
 
 ![Antenna Geometry](./LPDA_geometry.png)
 
-## 📂 Repository Structure
+## Repository Structure
 
 | File | Description |
 | :--- | :--- |
@@ -30,7 +30,7 @@ This project simulates a **Hazardous EMF Detector** to detect dangerous electrom
 
 ---
 
-## 🧩 Tools & Libraries
+## Tools & Libraries
 * **MATLAB** (with Antenna Toolbox)
 * **Twilio API** for SMS notifications
 * **Simulated EM environment** for testing
@@ -38,7 +38,7 @@ This project simulates a **Hazardous EMF Detector** to detect dangerous electrom
 ![Simulink Implementation](./simulink_model.png)
 *Figure 1: Simulink block diagram showing the RF detector, comparator, and SMS alert logic.*
 
-## ⚙️ Features
+## Features
 * **Antenna Design:** MATLAB Antenna Toolbox used to design and simulate a broadband antenna targeting 0.5–3 GHz.
 * **EM Detection:** Functional blocks detect hazardous EM waves within the target frequency range.
 * **Alert System:** SMS notification sent via Twilio when EMF exceeds safety thresholds.
@@ -49,7 +49,7 @@ This project simulates a **Hazardous EMF Detector** to detect dangerous electrom
 
 ---
 
-## 📊 Simulation & Analysis results
+## Simulation & Analysis results
 
 ### 3D Radiation Pattern
 ![Radiation Pattern](./Radiation_Pattern.png)
@@ -65,7 +65,7 @@ This project simulates a **Hazardous EMF Detector** to detect dangerous electrom
 
 ---
 
-## ✅ Applications
+## Applications
 * Hazardous EMF detection in labs or workplaces.
 * Educational demonstration of EM wave detection and safety.
 * Prototype for IoT-based EMF monitoring systems.
